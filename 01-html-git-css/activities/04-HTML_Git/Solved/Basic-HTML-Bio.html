@@ -1,0 +1,70 @@
+<!-- Activity 1: Basic HTML Bio -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Activity 1: Basic HTML Bio</title>
+</head>
+<style>
+  #header {
+    color:aqua;
+    background-color: navajowhite;
+    border: 3px dashed tomato;
+    text-align: center;
+  }
+  .container {
+    margin: 20px auto 0px 25%;
+  }
+  body {
+    font-size: xx-large;
+  }
+  body a:hover {
+    color: white;
+  }
+  span {
+    display: block;
+  }
+</style>
+<body>
+
+  <!-- Site -->
+  <div id='header'>
+    <!-- h1: The most important headline -->
+    <h1>Student Bio</h1>
+  </div>
+
+  <div class='container'>
+
+    <!-- div 1: Bio -->
+    <div>
+      <!-- h2: Tier-2 Headline (Not as important as the h1<div, but more than one allowed). -->
+      <h2>Your Name</h2>
+
+      <!-- Image with link -->
+      <img src="https://placehold.it/200x200" alt="Your Name">
+
+      <!-- Paragraph with embedded link -->
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </div>
+
+    <!-- div 2: Contact Info -->
+    <div>
+      <span>Definitely not a block... it is inline</span>
+      <!-- h2: Tier-2 Headline -->
+      <h2>Contact Info</h2>
+
+      <!-- Unordered list -->
+      <ul>
+        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
